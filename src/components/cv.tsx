@@ -41,11 +41,11 @@ const Cv = () => {
                 </div>
                 <div className="cv-social">
                 <a href="https://linkedin.com/in/sergiogutierrezmaury" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/LI-In-Bug.png" alt="LinkedIn" style={{ verticalAlign: 'middle', marginRight: '5px' }} />
+                    <img src="./assets/LI-In-Bug.png" alt="LinkedIn" style={{ verticalAlign: 'middle', marginRight: '5px' }} />
                     LinkedIn   
                 </a>
                 <a href="https://github.com/Sergi095" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/GitHub_logo.png" alt="GitHub" style={{ verticalAlign: 'middle', marginRight: '5px' }} />
+                    <img src="./assets/GitHub_logo.png" alt="GitHub" style={{ verticalAlign: 'middle', marginRight: '5px' }} />
                     GitHub
                 </a>
                 <button onClick={handleDownload} className="cv-download-button">
