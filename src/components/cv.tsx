@@ -4,7 +4,7 @@ const Cv = () => {
     const handleDownload = () => {
         // Replace with the path to your actual PDF file
         const link = document.createElement('a');
-        link.href = '/assets/SergioCV.pdf';
+        link.href = './assets/SergioCV.pdf';
         link.download = 'SAGutierrezMaury.pdf';
         link.click();
     };
