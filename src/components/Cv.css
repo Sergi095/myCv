@@ -109,20 +109,37 @@ body, html {
 
   
   .footer {
-    background-color: #8db4aa;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #8db4aa; /* Dark background for better contrast */
+    color: white; /* White text color */
   }
   
   .footer a {
     margin: 0 10px;
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
   }
   
   .footer img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
   }
+  
+  .download-cv {
+    margin-left: 20px;
+  }
+  
+  .email-link {
+    margin-left: 20px;
+  }
+  
 
 
 
