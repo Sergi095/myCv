@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         rel="noopener noreferrer"
         aria-label="GitHub"
       >
-        <img src="./assets/Github_logo.png" alt="GitHub" />
+        <img src="./assets/GitHub_logo.png" alt="GitHub" />
       </a>
       <a 
         href="./assets/SergioCV.pdf" 
