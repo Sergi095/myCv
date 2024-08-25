@@ -1,14 +1,19 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import './components/Cv.css';
 
-import './App.css'
-import Cv from './components/cv'
-
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
-      <Cv />
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/myCv" element={<Home />} /> 
+        <Route path="/about" element={<AboutMe />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
