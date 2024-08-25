@@ -36,7 +36,7 @@ const Education: React.FC = () => {
 
   return (
     <section className="education-section">
-      <h2 style={{ textAlign: 'center' }}>Education</h2>
+      <h2 style={{ textAlign: 'center', color: 'black' }}>Education</h2>
       <ul>
         {educationEntries.map((entry, index) => (
           <li key={index} className={expanded === index ? 'expanded' : ''}>

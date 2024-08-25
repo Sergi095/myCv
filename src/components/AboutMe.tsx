@@ -17,8 +17,8 @@ const AboutMe: React.FC = () => {
         // paddingLeft: '600px',
       }}
     >
-      <h1 style={{ marginBottom: '20px' }}>Developing this part</h1>
-      <p style={{ marginBottom: '20px' }}>
+      <h1 style={{ marginBottom: '20px', color: 'black' }}>Developing this part</h1>
+      <p style={{ marginBottom: '20px', color: 'black' }}>
         This section is under development. Please check back later for more information.
       </p>
       <Link to="/myCv/" style={{ textDecoration: 'underline', color: '#3498db' }}>

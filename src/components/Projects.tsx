@@ -33,7 +33,7 @@ const projects = [
 
   return (
     <section className="projects">
-      <h2 style={{ textAlign: 'center' }}>Projects</h2>
+      <h2 style={{ textAlign: 'center', color: 'black' }}>Projects</h2>
       <ul>
         {projects.map((project, index) => (
           <li key={index} className={expanded === index ? 'expanded' : ''}>

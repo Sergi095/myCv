@@ -40,7 +40,7 @@ const WorkExperience: React.FC = () => {
 
   return (
     <section className="work-experience">
-      <h2 style={{ textAlign: 'center' }}>Work Experience</h2>
+      <h2 style={{ textAlign: 'center', color: 'black' }}>Work Experience</h2>
       <ul>
         {jobExperiences.map((job, index) => (
           <li key={index} className={expanded === index ? 'expanded' : ''}>
