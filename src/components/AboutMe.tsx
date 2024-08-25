@@ -21,7 +21,7 @@ const AboutMe: React.FC = () => {
       <p style={{ marginBottom: '20px' }}>
         This section is under development. Please check back later for more information.
       </p>
-      <Link to="/myCv" style={{ textDecoration: 'underline', color: '#3498db' }}>
+      <Link to="/myCv/" style={{ textDecoration: 'underline', color: '#3498db' }}>
         Back to CV
       </Link>
     </div>
