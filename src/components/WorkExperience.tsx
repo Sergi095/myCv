@@ -45,9 +45,9 @@ const WorkExperience: React.FC = () => {
         {jobExperiences.map((job, index) => (
           <li key={index} className={expanded === index ? 'expanded' : ''}>
             <h3 onClick={() => toggleExpand(index)}>{job.title}</h3>
-            <div className="job-details">
+            <div className="job-details" style={{overflow: 'auto'}}>
               <p>{job.company} • {job.date} • {job.location}</p>
-              <ul style={{overflow: 'auto'}}>
+              <ul>
                 {job.responsibilities.map((responsibility, i) => (
                   <li key={i}>{responsibility}</li>
                 ))}
